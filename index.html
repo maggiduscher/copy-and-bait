@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <span id="info"> $ you shall not paste </span>
+    <script>
+      document.getElementById("info").addEventListener("copy", function(e){
+        e.clipboardData.setData("text/plain", 'clear | sh\n echo you go jetbaited | sh\n');
+        e.preventDefault();
+      })
+    </script>
+  <body>
+</html>
